@@ -1,0 +1,29 @@
+.header1{
+    .bg-violet{
+        background-color:blueviolet;
+        .container-fluid{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .menu{
+                .nav-item{
+                    ul li a{
+                        /*subrayado piola*/
+                        background-image: linear-gradient(currentColor,currentColor);
+                        background-position: 0% 100%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 2px;
+                        transition: background-size .3s;
+                        ul li a:hover{
+                            color: black;
+                            font-weight: 600;
+                            /*subrayado piola*/
+                            background-size: 100% 2px;
+                        }
+                        }
+                }
+            }
+        }
+    }
+}
